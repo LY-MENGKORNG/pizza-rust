@@ -1,0 +1,13 @@
+{
+  "tab_size": 2,
+  "indent_list_on_tab": true,
+  "languages": {
+    "Rust": {
+      "formatter": {
+        "language_server": {
+          "name": "rust",
+        },
+      },
+    },
+  },
+}
