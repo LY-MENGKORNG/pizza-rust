@@ -7,7 +7,5 @@ use super::models::Pizza;
 
 #[derive(Clone, Default)]
 pub struct AppState {
-  pub pizzas: Arc<RwLock<HashMap<Uuid, Pizza>>>,
+    pub pizzas: Arc<RwLock<HashMap<Uuid, Pizza>>>,
 }
-
-

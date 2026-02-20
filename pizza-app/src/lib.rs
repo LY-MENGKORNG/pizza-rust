@@ -1,15 +1,15 @@
 mod recipes {
-  pub mod margherita {
-    pub fn prepare() {
-      println!("Preparing Margherita Pizza...");
+    pub mod margherita {
+        pub fn prepare() {
+            println!("Preparing Margherita Pizza...");
+        }
+        pub fn bake() {
+            println!("Baking Margherita Pizza...");
+        }
+        pub fn serve() {
+            println!("Serving Margherita Pizza...");
+        }
     }
-    pub fn bake() {
-      println!("Baking Margherita Pizza...");
-    }
-    pub fn serve() {
-      println!("Serving Margherita Pizza...");
-    }
-  }
 }
 
 pub mod api;
@@ -20,8 +20,8 @@ pub mod api;
  * @return {void}
  */
 pub fn eat_at_restaurant() {
-  println!("Welcome to the restaurant! 🍴");
-  recipes::margherita::prepare();
-  recipes::margherita::bake();
-  recipes::margherita::serve();
+    println!("Welcome to the restaurant! 🍴");
+    recipes::margherita::prepare();
+    recipes::margherita::bake();
+    recipes::margherita::serve();
 }
